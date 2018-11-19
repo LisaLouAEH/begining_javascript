@@ -37,3 +37,19 @@ function reverse(str){
     return reversed;
 }
 console.log(reverse('abcd'));
+/*Pour te chauffer, commence par construire le dessous du capot des premières fonctions : 
+une fonction add(), qui prend deux nombres et qui les ajoute entre eux. 
+Ensuite fais des fonctions multiply(), divide(), et substract() 
+qui fonctionnent de manière similaire.*/
+function add(a, b){
+    return a + b;
+}
+function multiply(a, b){
+    return a * b;
+}
+function divide(a, b){
+    return a / b;
+}
+function substract(a, b){
+    return a - b;
+}
